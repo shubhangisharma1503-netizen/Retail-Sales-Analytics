@@ -137,19 +137,19 @@ Designed an interactive three-page dashboard for business reporting.
 
 ## Executive Dashboard
 
-![Executive Dashboard](screenshots/Executive%20Dashboard.png)
+![Executive Dashboard](Screenshots/Executive%20Dashboard.png)
 
 ---
 
 ## Customer and Segment Analysis
 
-![Customer and Segment Analysis](screenshots/Customer%20and%20Segment%20Analysis.png)
+![Customer and Segment Analysis](Screenshots/Customer%20and%20Segment%20Analysis.png)
 
 ---
 
 ## Product Analysis
 
-![Product Analysis](screenshots/Product%20analysis.png)
+![Product Analysis](Screenshots/Product%20analysis.png)
 
 ---
 
