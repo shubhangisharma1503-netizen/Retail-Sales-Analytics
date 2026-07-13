@@ -97,6 +97,23 @@ Provides product-level insights including:
 - Profit by Sub-Category
 
 ---
+## 📷 Dashboard Preview
+
+### Executive Dashboard
+
+![Executive Dashboard](screenshots/Executive Dashboard.png)
+
+---
+
+### Customer & Segment Analysis
+
+![Customer & Segment Analysis](screenshots/Customer and Segment Analysis.png)
+
+---
+
+### Product Analysis
+
+![Product Analysis](screenshots/Product Analysis.png)
 
 ## 🗃️ SQL Analysis
 
