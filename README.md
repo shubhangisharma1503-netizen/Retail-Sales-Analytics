@@ -1,72 +1,166 @@
 # 📊 Retail Sales Analytics Dashboard
 
-## 📌 Project Overview
-
-This project analyzes retail sales data to uncover business insights related to sales, profit, customers, products, and regional performance.
-
-The workflow includes:
-
-- Data Cleaning using Python
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- SQL-based Business Analysis
-- Interactive Dashboard in Power BI
+A complete end-to-end **Retail Sales Analytics** project built using **Python, SQL, and Power BI**. This project demonstrates the complete data analytics workflow—from raw data cleaning and exploratory analysis to SQL-based business insights and interactive dashboard creation.
 
 ---
 
-## 🛠️ Tech Stack
+# 🚀 Project Overview
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- MySQL
-- Power BI
-- Git & GitHub
+The objective of this project was to analyze retail sales data to uncover meaningful business insights regarding:
+
+- Sales Performance
+- Profitability
+- Customer Segments
+- Product Performance
+- Regional Trends
+- Discount Analysis
+
+The project follows a complete analytics pipeline:
+
+Raw Dataset → Data Cleaning → Exploratory Data Analysis (EDA) → Feature Engineering → SQL Business Queries → Interactive Power BI Dashboard
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Tech Stack
+
+- **Python**
+  - Pandas
+  - NumPy
+  - Matplotlib
+
+- **SQL**
+  - MySQL
+
+- **Power BI**
+
+- **Git & GitHub**
+
+---
+
+# 📂 Project Structure
 
 ```
 Retail-Sales-Analytics
 │
-├── data
+├── dataset
 │   └── superstore_cleaned.csv
 │
 ├── notebook
 │   └── Retail_Sales_EDA.ipynb
 │
-├── sql
+├── SQL
 │   └── retail_queries.sql
 │
 ├── dashboard
 │   └── Retail_Sales_Dashboard.pbix
+│
+├── screenshots
+│   ├── Executive Dashboard.png
+│   ├── Customer and Segment Analysis.png
+│   └── Product analysis.png
 │
 └── README.md
 ```
 
 ---
 
-## 📈 Key Performance Indicators
+# 📈 Project Workflow
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Average Discount
+### 1️⃣ Data Cleaning (Python)
+
+- Removed inconsistencies and missing values
+- Corrected data types
+- Cleaned categorical variables
+- Prepared dataset for analysis
 
 ---
 
-## 📊 Dashboard Pages
+### 2️⃣ Exploratory Data Analysis (EDA)
 
-### Executive Dashboard
+Performed analysis on:
 
-Displays overall business performance including:
+- Sales Distribution
+- Profit Distribution
+- Category Performance
+- Regional Performance
+- Customer Segments
+- Product Trends
+
+---
+
+### 3️⃣ Feature Engineering
+
+Created additional features for improved analysis, including:
+
+- Month extraction from Order Date
+- Business metrics for dashboard reporting
+
+---
+
+### 4️⃣ SQL Business Analysis
+
+Wrote multiple SQL queries to answer business questions such as:
 
 - Total Sales
 - Total Profit
 - Total Orders
 - Average Discount
+- Sales by Region
+- Profit by Region
+- Sales by Category
+- Profit by Segment
+- Top Customers
+- Top Products
+- Monthly Sales Trend
+- Top Cities
+- Top States
+
+SQL concepts used:
+
+- SELECT
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+- LIMIT
+- Aggregate Functions
+
+---
+
+### 5️⃣ Power BI Dashboard
+
+Designed an interactive three-page dashboard for business reporting.
+
+---
+
+# 📷 Dashboard Preview
+
+## Executive Dashboard
+
+![Executive Dashboard](screenshots/Executive%20Dashboard.png)
+
+---
+
+## Customer and Segment Analysis
+
+![Customer and Segment Analysis](screenshots/Customer%20and%20Segment%20Analysis.png)
+
+---
+
+## Product Analysis
+
+![Product Analysis](screenshots/Product%20analysis.png)
+
+---
+
+# 📊 Dashboard Features
+
+### Executive Dashboard
+
+- Total Sales KPI
+- Total Profit KPI
+- Total Orders KPI
+- Average Discount KPI
 - Regional Sales
 - Regional Profit
 - Monthly Sales Trend
@@ -76,20 +170,17 @@ Displays overall business performance including:
 
 ### Customer & Segment Analysis
 
-Analyzes customer segments based on:
-
 - Sales by Segment
 - Profit by Segment
 - Discount vs Profit
-- Region Filters
-- Category Filters
-- Segment Filters
+- Interactive Filters
+  - Region
+  - Category
+  - Segment
 
 ---
 
 ### Product Analysis
-
-Provides product-level insights including:
 
 - Top Products by Sales
 - Top Products by Profit
@@ -97,57 +188,33 @@ Provides product-level insights including:
 - Profit by Sub-Category
 
 ---
-## 📷 Dashboard Preview
 
-### Executive Dashboard
+# 📌 Key Business Insights
 
-![Executive Dashboard](screenshots/Executive Dashboard.png)
-
----
-
-### Customer & Segment Analysis
-
-![Customer & Segment Analysis](screenshots/Customer and Segment Analysis.png)
+- Identified the highest-performing regions based on sales and profit.
+- Analyzed the relationship between discount and profitability.
+- Determined top-performing products and customer segments.
+- Compared category-wise sales and profit performance.
+- Built interactive dashboards to support business decision-making.
 
 ---
 
-### Product Analysis
-
-![Product Analysis](screenshots/Product Analysis.png)
-
-## 🗃️ SQL Analysis
-
-Business queries were written to analyze:
-
-- Total Sales
-- Total Profit
-- Average Discount
-- Regional Performance
-- Category Performance
-- Segment Performance
-- Top Customers
-- Top Products
-- Monthly Sales Trend
-- Top Cities
-- Top States
-
----
-
-## 🚀 Skills Demonstrated
+# 💡 Skills Demonstrated
 
 - Data Cleaning
-- Exploratory Data Analysis
+- Exploratory Data Analysis (EDA)
 - Feature Engineering
-- SQL Aggregations
-- Business Intelligence
+- SQL Query Writing
+- Business Analytics
 - Dashboard Design
 - Data Visualization
-- GitHub Project Management
+- Power BI
+- Git & GitHub
 
 ---
 
-## 📬 Author
+# 👩‍💻 Author
 
 **Shubhangi Sharma**
 
-B.Tech | Data Analytics Enthusiast
+B.Tech Student | Aspiring Data Analyst
